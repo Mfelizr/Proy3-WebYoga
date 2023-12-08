@@ -1,0 +1,86 @@
+html{
+    font-family: sans-serif;
+    color: rgb(116, 38, 44);
+}
+body, html {
+    height: 100%;
+}
+.bg-colorSeccion1 {
+    background-color: rgb(235, 224, 213);
+    color:  rgb(116, 38, 44) 
+}
+.bg-colorSeccion1 a{
+    color: rgb(116, 38, 44);
+}
+.bg-colorSeccion2 {
+    background-color: rgb(239, 230, 221);
+}
+.bg-colorSeccion3 {
+    background-color: rgb(255, 255, 255);    
+}
+.bg-colorSeccion4 {
+    background-color: rgb(65, 58, 58);
+}
+.bg-colorSeccion5 {
+    background-color: rgb(241, 219, 211);
+}
+.bg-colorGranate {
+    background-color: rgb(116, 38, 44);
+    color: white
+}
+.bg-colorClaro {
+    background-color: rgb(224, 164, 145);
+}
+
+.bg-colorGranate p{
+    color: white
+}
+
+p, h2 {color: rgb(116, 38, 44);}
+
+p {
+    margin: -5px;
+    padding: -2px ;
+}
+.inputText{
+  border-color: rgb(116, 38, 44);
+} 
+
+#btn-enviar{
+    background-color: rgb(116, 38, 44);
+    color: white
+}
+
+.parallax {
+    /* Full height */
+    height: 50%; 
+    /* The image used */
+    background: linear-gradient(
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+        ),url('Images/fondo1.jpg');
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax2 {
+    /* The image used */
+    background: linear-gradient(
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+        ),url('Images/fondo2.jpg');
+  
+    /* Full height */
+    height: 50%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
