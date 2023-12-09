@@ -25,35 +25,45 @@ body, html {
     background-color: rgb(241, 219, 211);
 }
 .bg-colorGranate {
-    background-color: rgb(116, 38, 44);
-    color: white
+    background-color: rgb(116, 38, 44);    
 }
 .bg-colorClaro {
     background-color: rgb(224, 164, 145);
 }
-
 .bg-colorGranate p{
     color: white
 }
-
-p, h2 {color: rgb(116, 38, 44);}
-
 p {
+    color: rgb(116, 38, 44);
     margin: -5px;
     padding: -2px ;
 }
 .inputText{
   border-color: rgb(116, 38, 44);
 } 
+#h2{
+    color: rgb(116, 38, 44);
+}
+#section2{        
+    opacity: 85%;    
+}
 
 #btn-enviar{
     background-color: rgb(116, 38, 44);
     color: white
 }
-
+.border-a{
+    border: 1px rgb(116, 38, 44) solid;
+    text-decoration: none;
+    background-color: white;
+    color: rgb(224, 164, 145);
+    font-size: large;    
+    padding: 0.5em;
+    margin: auto;
+}
 .parallax {
     /* Full height */
-    height: 50%; 
+    height: 20%; 
     /* The image used */
     background: linear-gradient(
         rgba(0,0,0,0.3),
@@ -69,12 +79,12 @@ p {
   .parallax2 {
     /* The image used */
     background: linear-gradient(
-        rgba(0,0,0,0.3),
-        rgba(0,0,0,0.3)
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
         ),url('Images/fondo2.jpg');
   
     /* Full height */
-    height: 50%; 
+    height: 12%; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
